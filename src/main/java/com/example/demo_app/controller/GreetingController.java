@@ -11,4 +11,10 @@ public class GreetingController {
     public String greeting() {
         return "Ciao Amico";
     }
+
+    @GetMapping("/hello")
+    public String greetingEn() {
+        return "Hello Friend";
+    }
+
 }
