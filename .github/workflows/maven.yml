@@ -10,7 +10,7 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main","dev" ]
 
 jobs:
   build:
@@ -26,4 +26,5 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Clean with Maven
-      run: mvn clean install
+      run: mvn clean install 
+           echo "Clean install finished"
