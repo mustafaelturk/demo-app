@@ -26,5 +26,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Clean with Maven
-      run: mvn clean install 
-           echo "Clean install finished"
+      run: mvn clean install
