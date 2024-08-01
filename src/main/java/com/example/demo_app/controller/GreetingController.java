@@ -12,9 +12,4 @@ public class GreetingController {
         return "Ciao Amico";
     }
 
-    @GetMapping("/hello")
-    public String greetingEn() {
-        return "Hello Friend";
-    }
-
 }
