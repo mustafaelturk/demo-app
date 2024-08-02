@@ -9,7 +9,7 @@ public class GreetingController {
 
     @GetMapping("/greeting")
     public String greeting() {
-        return "Ciao Amico  ";
+        return "Ciao Amico   ";
     }
 
 }
